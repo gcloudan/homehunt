@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import styles from './App.module.css';
 import { render } from "solid-js/web";
+import homeHuntLogo from "./Capture.png";
 
 function App() {
   const articles = [
@@ -51,7 +52,7 @@ function App() {
     <div class="container">
       <header class="header">
         <a href="/" class="logo">
-          <img src="https://via.placeholder.com/150x50.png?text=HomeHunt" alt="HomeHunt Logo" />
+          <img src={homeHuntLogo} alt="HomeHunt Logo" width="50%" />
         </a>
         <nav class="navigation-menu">
           <ul>
@@ -63,11 +64,17 @@ function App() {
         </nav>
       </header>
       <section class="hero">
-      <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Hero Image" />
+        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Hero Image" />
         <h1 class="headline">Find your next tenant</h1>
         <p class="subheadline">A smarter way to rent your home</p>
-        <a href="#" class="custom-button">I'm a Tenant</a>
-        <a href="#" class="custom-button">I'm a Landlord</a>
+        <div>
+          <div style="padding: 10px; width: 10rem; display: inline-block">
+            <a href="#" class="custom-button">I'm a Tenant</a>
+          </div>
+          <div style="padding: 10px; width: 10rem; display: inline-block">
+            <a href="#" class="custom-button">I'm a Landlord</a>
+          </div>
+        </div>
       </section>
       <section class="featured-articles">
         <h2 class="section-title">Latest Articles</h2>
