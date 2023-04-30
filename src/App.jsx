@@ -66,7 +66,8 @@ function App() {
       <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Hero Image" />
         <h1 class="headline">Find your next tenant</h1>
         <p class="subheadline">A smarter way to rent your home</p>
-        <a href="#" class="call-to-action-button">Find Your Tenant</a>
+        <a href="#" class="custom-button">I'm a Tenant</a>
+        <a href="#" class="custom-button">I'm a Landlord</a>
       </section>
       <section class="featured-articles">
         <h2 class="section-title">Latest Articles</h2>
@@ -76,7 +77,7 @@ function App() {
               <img src={article.image} alt={article.title} />
               <h3 class="article-title">{article.title}</h3>
               <p class="article-excerpt">{article.excerpt}</p>
-              <button class="read-more-button">Read More</button>
+              <button class="custom-button">Read More</button>
             </a>
           ))}
         </div>

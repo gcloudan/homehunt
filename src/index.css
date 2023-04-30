@@ -254,7 +254,7 @@ nav a:hover {
   background-color: #3e8e41;
 }
 
-.read-more-button {
+.custom-button {
   display: block;
   margin-top: 10px;
   background-color: #333;
@@ -267,7 +267,7 @@ nav a:hover {
   text-decoration: none;
 }
 
-.read-more-button:hover {
+.custom-button:hover {
   background-color: #555;
 }
 
